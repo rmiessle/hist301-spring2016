@@ -1,1 +1,1 @@
-Path for files: /public_html/wp-content-themes
+Path for files: /public_html/wp-content/themes/twentytwelve-child
