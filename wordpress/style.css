@@ -1,0 +1,66 @@
+/*
+Theme Name: Twenty Twelve Child
+Theme URI: https://github.com/rmiessle/hist-301-peace
+Author: R.C. Miessler
+Author URI: https://github.com/rmiessle/
+Description: Updated 2012 theme for Wordpress for use with HIST-301
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentytwelve-child
+Template: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('../twentytwelve/style.css');
+
+h1, h2, h3, h4, h5, h6, .nav-menu {font-family: 'Montserrat', sans-serif;  !important;}
+body {font-family: 'Crimson Text', serif !important; font-size: 1.2em;}
+.wp-caption .wp-caption-text, .gallery-caption, .entry-caption {font-size: 1em; line-height: 1.5em; color: #000000;}
+.page .entry-title { display: none; }
+.site {
+    margin: 0 auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+.home .site-header {padding-bottom: 0rem;}
+.site-content article {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+#footer, #colophon {
+   max-width: 100%;
+}
+
+img {
+   border: solid black 1px !important;
+}
+
+.wp-caption {
+   background-color: #f6f2e9 !important;
+   margin: 12px 12px 0px 12px !important;
+}
+
+#page {
+background-color: rgba(255,255,255,0.90) !important;
+}
+
+p.wp-caption-text {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0em; !important
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+.nav-menu {border-bottom: none !important; border-top: none !important; background-color: #c42801!important; }
+.main-navigation li a{color: #ffffff; padding: 0px 0px 0px 5px;}
+.main-navigation li ul li a:hover {color: #000000; background: #c42801;} 
+.main-navigation li ul li a {background: #DE421B;}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {color: #000000;}
+.header-image { margin-left: auto; margin-right: auto; display:block; }
